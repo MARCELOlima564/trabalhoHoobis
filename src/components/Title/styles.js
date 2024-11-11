@@ -5,6 +5,8 @@ const styles = StyleSheet.create({
         fontSize: 24,
         marginBottom: 16,
         fontWeight: "bold",
+        textAlign: "center",
+        textDecorationLine: "underline"
     }
 });
 
