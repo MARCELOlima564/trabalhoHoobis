@@ -2,11 +2,13 @@ import { View, Text } from 'react-native'
 
 import styles from './styles'
 import Title from '../../components/Title'
+import { Image } from "react-native";
 import MyButton from '../../components/MyButton'
 
 export default function Apresentacao() {
   return (
     <View style={styles.container}>
+      <Image source={require('../../../assets/Marcelo.JPG')}/>
      <Title title={"Apresentação"}/>
 
      <View style={styles.apresentacao1}>
