@@ -26,8 +26,12 @@ export default function Apresentacao() {
           </Text>
         </View>
 
+      
+        <Text style={styles.filmes}>Filmes preferidos</Text>
+        <View style={styles.viewBotao}>
         <MyButton screen="Filme01" name="Até o Último Homem" />
         <MyButton screen="Filme02" name="Velozes e Furiosos" />
+        </View>
       </View>
     </ScrollView>
   );

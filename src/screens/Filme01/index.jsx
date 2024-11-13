@@ -10,7 +10,7 @@ export default function Filme01() {
       </View>
       
       <Image 
-        source={require('../../../assets/ulitmo_homem.jpg')} 
+        source={require('../../../assets/ate_oultimohomem.jpg')} 
         style={styles.image} 
       />
 

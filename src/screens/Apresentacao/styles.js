@@ -37,6 +37,18 @@ const styles = StyleSheet.create({
     lineHeight: 24,
     marginBottom: 15,
   },
+
+  filmes: {
+    textAlign: "center",
+    fontSize: 30,
+    fontWeight: "bold",
+  },
+
+  viewBotao: {
+    display: "flex",
+  flexDirection: "row",
+  gap: 20,
+  },
 });
 
 export default styles;

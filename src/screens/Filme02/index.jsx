@@ -10,7 +10,7 @@ export default function Filme02() {
       </View>
       
       <Image 
-        source={require('../../../assets/velozes_furiosos.jpg')} 
+        source={require('../../../assets/velozes-e-furiosos.jpg')} 
         style={styles.image} 
       />
 
